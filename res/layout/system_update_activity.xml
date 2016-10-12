@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="@dimen/system_update_outer_padding_bottom"
+                android:paddingLeft="@dimen/system_update_outer_padding_sides"
+                android:paddingRight="@dimen/system_update_outer_padding_sides"
+                android:paddingTop="@dimen/system_update_outer_padding_top"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/progress"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/progress"
+            android:paddingTop="24.0dip"
+            tools:text="Title"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+        <ProgressBar
+            android:id="@id/progress"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginBottom="6.5px"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_marginTop="6.5dip"
+            android:indeterminate="true"/>
+
+        <TextView
+            android:id="@id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/progress"
+            android:layout_below="@id/progress"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+            tools:text="Status"/>
+
+        <TextView
+            android:id="@id/size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/progress"
+            android:layout_below="@+id/progress"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+            tools:text="XXXMB"/>
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_above="@+id/bottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true">
+        <ScrollView
+            android:id="@id/scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bottom"
+            android:layout_below="@+id/status"
+            android:background="?android:attr/panelBackground"
+            style="@android:style/Widget.DeviceDefault.Light.ScrollView">
+
+            <TextView
+                android:id="@id/description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="24.0dip"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="16.0dip"
+                android:paddingTop="24.0dip"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                tools:text="Lorem ipsum dolor sit amet, duo dolore nominavi ut. Mel tempor rationibus no. Quando iudicabit te his. Cu movet everti copiosae est. At his tota summo maiestatis, nam qualisque inciderint ex.  Nullam periculis ut pro, essent minimum menandri an eam. Solum singulis constituto eam ea. An idque dicunt ocurreret mei. Usu ea meis movet.  Causae eleifend in sit, vis an libris nominavi repudiandae. Duo alienum abhorreant constituam an, eos at maiorum nusquam. Te sit elitr debitis, vim ad rebum dicat evertitur. Unum solum aperiri at pri. No wisi nullam his.  Te vis sonet erroribus, eos in consul nominati. Ne his malis volumus reprehendunt, usu purto latine complectitur ex, in assum libris dissentiet per. Iusto omittam ius et. Eu dicit corrumpit consequuntur mea. At fastidii consequat vis. No deleniti reprimique sadipscing sed, quo ea sumo eleifend liberavisse, duis habeo quo no. Assum summo fabellas mea te, facer iudico semper eu has, volumus postulant no his.  Quo atomorum argumentum an. Duo in mollis evertitur, at partem tacimates his. Graeco recusabo voluptatum nec ad. Ei mei legere epicuri antiopam, eu eruditi sensibus has. Ne mea facilisi abhorreant, vix at eros aeterno fabulas. Ad homero legendos pericula vim. Legere minimum signiferumque ei vel, his te perpetua senserit.  Cu copiosae elaboraret pri, has no congue debitis accumsan, id eam quod debet admodum. Verear eruditi delicatissimi in has, ut habemus volutpat voluptatibus nec, ei pro offendit instructior reprehendunt. Et pro alienum liberavisse. Pro suas possit no, ius aperiam nostrum verterem ad.  Eu est mazim altera, in sale intellegat dissentiet his. Nam porro mollis petentium ut, eu errem omnium numquam vel. Ea pro tota putant splendide. In accusam principes sed. Sint veniam est an, illud quidam aliquando ei eum. Eam etiam aliquip dolorem ne, iudico epicurei quaerendum vis in. No per viris labore alienum.  Usu tollit principes assueverit et, est eu nonumes corrumpit gloriatur. Suavitate quaerendum nec et, nec odio magna insolens ad. Duo detracto insolens phaedrum ei, qui autem malorum epicurei in. Liber recusabo vim in, inani aeterno complectitur at nec. Ex constituto liberavisse suscipiantur duo, an sed iusto complectitur, ea est cibo modus appetere. Possit verear an vis, mel tamquam maiorum praesent in.  Quas dolore liberavisse et duo, temporibus cotidieque accommodare sea ne. An paulo sapientem persequeris duo, te nam omittam assentior. No partiendo percipitur mel. Iuvaret sensibus ad nam, et mea elit natum quaestio.  Novum mentitum neglegentur et mea. Mei cu eirmod mediocrem elaboraret. Duo te dolor scripta adipiscing, vim in posse affert facilisi. Ex inani vitae eirmod sea. Te homero graeco explicari pro. Mel diam dictas oblique te."/>
+        </ScrollView>
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="?android:attr/panelBackground"
+        android:elevation="6dp">
+
+        <Button
+            android:id="@id/action_button"
+            android:layout_height="48.0dip"
+            android:layout_gravity="bottom|center|right"
+            android:layout_marginBottom="32.0dip"
+            android:layout_marginRight="24.0dip"
+            android:layout_marginTop="24.0dip"
+            tools:text="Action Button "
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="wrap_content"/>
+
+    </FrameLayout>
+</RelativeLayout>

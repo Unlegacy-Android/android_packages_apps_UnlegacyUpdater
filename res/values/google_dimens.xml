@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setup_wizard_divider_height">3.0dip</dimen>
+    <dimen name="setup_wizard_divider_margin_top">6.0dip</dimen>
+    <dimen name="setup_wizard_divider_margin_bottom">7.0dip</dimen>
+    <dimen name="setup_wizard_title_size">25.0dip</dimen>
+    <dimen name="setup_wizard_title_margin_sides">0.0dip</dimen>
+    <dimen name="setup_wizard_card_title_padding_end">0.0dip</dimen>
+    <dimen name="setup_wizard_card_title_padding_start">0.0dip</dimen>
+    <dimen name="setup_wizard_card_title_padding_top">16.0dip</dimen>
+    <dimen name="setup_wizard_card_title_padding_bottom">28.0dip</dimen>
+    <dimen name="setup_wizard_header_title_size">24.0sp</dimen>
+    <dimen name="setup_wizard_header_title_margin_bottom">16.0dip</dimen>
+    <dimen name="setup_wizard_header_title_padding_top">16.0dip</dimen>
+    <dimen name="setup_wizard_header_title_padding_bottom">2.0dip</dimen>
+    <dimen name="setup_wizard_header_title_line_spacing_extra">3.669983sp</dimen>
+    <dimen name="setup_wizard_content_margin_sides">0.0dip</dimen>
+    <dimen name="setup_wizard_margin_sides">40.0dip</dimen>
+    <dimen name="setup_wizard_content_frame_padding_top">0.0dip</dimen>
+    <dimen name="setup_wizard_content_frame_padding_bottom">16.0dip</dimen>
+    <dimen name="setup_wizard_heading_margin_top">16.0dip</dimen>
+    <dimen name="setup_wizard_heading_text_size">18.0sp</dimen>
+    <dimen name="setup_wizard_body_text_secondary_size">16.0sp</dimen>
+    <dimen name="setup_wizard_text_primary_small_size">14.0sp</dimen>
+    <dimen name="setup_wizard_description_margin_top">24.0dip</dimen>
+    <dimen name="setup_wizard_description_margin_bottom">12.0dip</dimen>
+    <dimen name="setup_wizard_description_line_spacing_extra">4.0sp</dimen>
+    <dimen name="setup_wizard_description_text_size">16.0sp</dimen>
+    <dimen name="setup_wizard_checkbox_margin_top">24.0dip</dimen>
+    <dimen name="setup_wizard_checkbox_margin_bottom">12.0dip</dimen>
+    <dimen name="setup_wizard_checkbox_margin_start">1.0dip</dimen>
+    <dimen name="setup_wizard_checkbox_line_spacing_extra">4.0sp</dimen>
+    <dimen name="setup_wizard_checkbox_padding_start">15.0dip</dimen>
+    <dimen name="setup_wizard_checkbox_text_size">16.0sp</dimen>
+    <dimen name="setup_wizard_button_height">48.0dip</dimen>
+    <dimen name="setup_wizard_button_min_width">128.0dip</dimen>
+    <dimen name="setup_wizard_button_margin_top">16.0dip</dimen>
+    <dimen name="setup_wizard_button_text_size">20.0dip</dimen>
+    <dimen name="setup_wizard_arrow_button_width">47.0dip</dimen>
+    <dimen name="setup_wizard_arrow_button_height">59.0dip</dimen>
+    <dimen name="setup_wizard_arrow_button_min_width">0.0dip</dimen>
+    <dimen name="setup_wizard_services_heading_margin_top">0.0dip</dimen>
+    <dimen name="setup_wizard_services_footnote_margin_top">18.0dip</dimen>
+    <dimen name="setup_wizard_services_footnote_text_size">14.0sp</dimen>
+    <dimen name="system_update_outer_padding_top">0.0dip</dimen>
+    <dimen name="system_update_outer_padding_bottom">0.0dip</dimen>
+    <dimen name="system_update_outer_padding_sides">0.0dip</dimen>
+    <dimen name="system_update_title_height">48.0dip</dimen>
+    <dimen name="system_update_title_text_size">25.0sp</dimen>
+    <dimen name="system_update_description_text_size">18.0sp</dimen>
+    <item name="alpha_animiation_max_opacity" type="dimen">1.0</item>
+    <item name="alpha_animiation_min_opacity" type="dimen">0.0</item>
+    <dimen name="translation_content_resting_point">0.0dip</dimen>
+    <dimen name="translation_content_cliff">100.0dip</dimen>
+    <item name="alpha_forward_in_content_start" type="dimen">@dimen/alpha_animiation_min_opacity
+    </item>
+    <item name="alpha_forward_in_content_end" type="dimen">@dimen/alpha_animiation_max_opacity
+    </item>
+    <item name="alpha_forward_out_content_start" type="dimen">@dimen/alpha_animiation_max_opacity
+    </item>
+    <item name="alpha_forward_out_content_end" type="dimen">@dimen/alpha_animiation_min_opacity
+    </item>
+    <item name="translation_forward_in_content_start" type="dimen">
+        @dimen/translation_content_cliff
+    </item>
+    <item name="translation_forward_in_content_end" type="dimen">
+        @dimen/translation_content_resting_point
+    </item>
+    <item name="alpha_backward_in_content_start" type="dimen">@dimen/alpha_animiation_min_opacity
+    </item>
+    <item name="alpha_backward_in_content_end" type="dimen">@dimen/alpha_animiation_max_opacity
+    </item>
+    <item name="alpha_backward_out_content_start" type="dimen">@dimen/alpha_animiation_max_opacity
+    </item>
+    <item name="alpha_backward_out_content_end" type="dimen">@dimen/alpha_animiation_min_opacity
+    </item>
+    <item name="translation_backward_out_content_start" type="dimen">
+        @dimen/translation_content_resting_point
+    </item>
+    <item name="translation_backward_out_content_end" type="dimen">
+        @dimen/translation_content_cliff
+    </item>
+    <item name="list_item_unselected_text_alpha" type="dimen">1.0</item>
+    <dimen name="list_item_checkmark_diameter">8.0dip</dimen>
+    <dimen name="list_item_title_font_size">18.0sp</dimen>
+    <dimen name="list_item_description_font_size">12.0sp</dimen>
+    <dimen name="list_item_timestamp_font_size">12.0sp</dimen>
+    <dimen name="content_fragment_title_text_bottom_padding">4.0dip</dimen>
+    <dimen name="content_fragment_title_text_top_padding">2.0dip</dimen>
+    <dimen name="content_fragment_title_text_size">36.0sp</dimen>
+    <dimen name="content_fragment_breadcrumb_text_size">18.0sp</dimen>
+    <dimen name="content_fragment_description_text_size">14.0sp</dimen>
+    <dimen name="content_fragment_default_icon_width">400.0dip</dimen>
+    <dimen name="content_fragment_default_icon_height">400.0dip</dimen>
+    <dimen name="content_fragment_max_icon_height">280.0dip</dimen>
+</resources>

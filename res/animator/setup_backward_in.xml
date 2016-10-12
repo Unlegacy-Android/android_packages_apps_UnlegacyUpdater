@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@integer/alpha_backward_in_content_duration"
+        android:propertyName="alpha"
+        android:startOffset="@integer/alpha_backward_in_content_delay"
+        android:valueFrom="@dimen/alpha_backward_in_content_start"
+        android:valueTo="@dimen/alpha_backward_in_content_end"
+        android:valueType="floatType"/>
+</set>

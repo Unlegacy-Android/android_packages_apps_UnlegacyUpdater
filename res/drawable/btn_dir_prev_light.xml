@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+          android:autoMirrored="true">
+    <item android:drawable="@drawable/btn_dir_prev_normal_light" android:state_enabled="true" android:state_window_focused="false"/>
+    <item android:drawable="@drawable/btn_dir_prev_disabled_light" android:state_enabled="false" android:state_window_focused="false"/>
+    <item android:drawable="@drawable/btn_dir_prev_pressed_light" android:state_pressed="true"/>
+    <item android:drawable="@drawable/btn_dir_prev_focused_light" android:state_enabled="true" android:state_focused="true"/>
+    <item android:drawable="@drawable/btn_dir_prev_normal_light" android:state_enabled="true"/>
+    <item android:drawable="@drawable/btn_dir_prev_disabled_focused_light" android:state_focused="true"/>
+    <item android:drawable="@drawable/btn_dir_prev_disabled_light"/>
+</selector>
