@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="setup_wizard_transition_duration">300</integer>
+    <integer name="base_animation_duration">500</integer>
+    <integer name="alpha_forward_in_content_delay">0</integer>
+    <item name="alpha_forward_in_content_duration" type="integer">@integer/base_animation_duration
+    </item>
+    <integer name="alpha_forward_out_content_delay">0</integer>
+    <item name="alpha_forward_out_content_duration" type="integer">
+        @integer/base_animation_duration
+    </item>
+    <integer name="translation_forward_in_content_delay">0</integer>
+    <item name="translation_forward_in_content_duration" type="integer">
+        @integer/base_animation_duration
+    </item>
+    <integer name="alpha_backward_in_content_delay">0</integer>
+    <item name="alpha_backward_in_content_duration" type="integer">
+        @integer/base_animation_duration
+    </item>
+    <integer name="alpha_backward_out_content_delay">0</integer>
+    <item name="alpha_backward_out_content_duration" type="integer">
+        @integer/base_animation_duration
+    </item>
+    <integer name="translation_backward_out_content_delay">0</integer>
+    <item name="translation_backward_out_content_duration" type="integer">
+        @integer/base_animation_duration
+    </item>
+</resources>
