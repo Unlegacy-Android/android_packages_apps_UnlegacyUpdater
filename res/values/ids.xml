@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="description" type="id">false</item>
+    <item name="title" type="id">false</item>
+    <item name="progress" type="id">false</item>
+    <item name="size" type="id">false</item>
+    <item name="status" type="id">false</item>
+    <item name="top" type="id">false</item>
+    <item name="middle" type="id">false</item>
+    <item name="bottom" type="id">false</item>
+    <item name="action_button" type="id">false</item>
+    <item name="scroll" type="id">false</item>
+</resources>
