@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="system_update_activity_name">System updates</string>
+    <string name="system_update_activity_title">System updates</string>
+    <string name="system_update_requires_restart_status_text">Requires a restart</string>
+    <string name="system_update_downloading_status_text">Downloading</string>
+    <string name="system_update_verifying_status_text">Verifying</string>
+    <string name="system_update_verification_failed_text">Verification failed</string>
+    <string name="system_update_verified_status_text">Downloaded and verified</string>
+    <string name="system_update_download_failed_status_text">"Couldn't download"</string>
+    <string name="system_update_download_retry_button_text">Retry download</string>
+    <string name="system_update_download_button_text">Download</string>
+    <string name="system_update_install_button_text">Restart &amp; install</string>
+    <string name="system_update_check_now_button_text">Check now</string>
+    <string name="system_update_no_update_content_text">Your system is up to date.</string>
+    <string name="system_update_update_available_notification_title">System update available</string>
+    <string name="system_update_update_downloaded_notification_title">System update downloaded</string>
+    <string name="system_update_update_downloaded_install_message">Touch to install.</string>
+    <string name="system_update_nonmandatory_update_download_failure_notification_title">"Couldn't download system update"</string>
+    <string name="system_update_nonmandatory_update_download_failure_notification_message">Download was unsuccessful. Try again.</string>
+    <string name="conn_auth_error_button_cancel">Cancel</string>
+</resources>
+
